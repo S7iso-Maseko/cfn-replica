@@ -1,0 +1,5 @@
+Resources:
+  MyBucket:
+    Type: 'AWS::S3::Bucket'
+    Properties:
+      BucketName: amzn-s3-demo-bucket
