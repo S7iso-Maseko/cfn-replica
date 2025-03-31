@@ -1,0 +1,5 @@
+template-file-path: stack-template.yaml
+parameters:
+  env: prod
+  env_2: dev
+tags: {}
