@@ -2,4 +2,4 @@ Resources:
   MyBucket:
     Type: 'AWS::S3::Bucket'
     Properties:
-      BucketName: somebucket-s3-demo-bucket-sync-001
+      BucketName: somebucket-s3-demo-bucket-sync-001-001
