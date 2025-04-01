@@ -1,1 +1,16 @@
-template-file-path: ./stack-template.yaml
+{
+    "SyncConfiguration": {
+        "Branch": "master",
+        "ConfigFile": "deployment.yaml",
+        "OwnerId": "S7iso-Maseko",
+        "ProviderType": "GitHub",
+        "RepositoryLinkId": "b8b61191-c7c7-4804-b8b6-e77825c6c3a4",
+        "RepositoryName": "cfn-replica",
+        "ResourceName": "new-stack",
+        "RoleArn": "arn:aws:iam::888577033713:role/cfn-gitsync",
+        "SyncType": "CFN_STACK_SYNC",
+        "PublishDeploymentStatus": "ENABLED",
+        "TriggerResourceUpdateOn": "ANY_CHANGE",
+        "PullRequestComment": "DISABLED"
+    }
+}
