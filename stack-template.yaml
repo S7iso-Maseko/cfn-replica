@@ -2,4 +2,4 @@ Resources:
   MyBucket:
     Type: 'AWS::S3::Bucket'
     Properties:
-      BucketName: some-s3-bucket-001
+      BucketName: some-s3-bucket-001-001
